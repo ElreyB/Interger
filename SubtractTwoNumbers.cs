@@ -1,6 +1,6 @@
 using System;
 
-class AddTwoNumbers
+class SubtractTwoNumbers
 {
   static void Main()
   {
@@ -17,7 +17,7 @@ class AddTwoNumbers
 
     string stringDifferenceNumber = yourDifferenceNumber.ToString();
 
-    Console.WriteLine("When you add " + stringFirstNumberSubtract + " to " + stringSecondNumberSubtract + ".........");
+    Console.WriteLine("When you subtract " + stringFirstNumberSubtract + " to " + stringSecondNumberSubtract + ".........");
     Console.WriteLine("You get: " + stringDifferenceNumber + "\n");
   }
 }
