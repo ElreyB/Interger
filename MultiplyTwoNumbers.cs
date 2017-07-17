@@ -13,11 +13,11 @@ class MultiplyTwoNumbers
 
     int intFirstNumberMultiply = int.Parse(stringFirstNumberMultiply);
     int intSecondNumberMultiply = int.Parse(stringSecondNumberMultiply);
-    int intFactorNumber = intFirstNumberMultiply * intSecondNumberMultiply;
+    int intProductNumber = intFirstNumberMultiply * intSecondNumberMultiply;
 
-    string stringFactorNumber = intFactorNumber.ToString();
+    string stringProductNumber = intProductNumber.ToString();
 
     Console.WriteLine("When you multiply " + stringFirstNumberMultiply + " to " + stringSecondNumberMultiply + ".........");
-    Console.WriteLine("You get: " + stringFactorNumber);
+    Console.WriteLine("You get: " + stringProductNumber);
   }
 }

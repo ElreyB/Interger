@@ -11,11 +11,11 @@ class SubtractTwoNumbers
     Console.WriteLine("Second number is: ");
     string stringSecondNumberSubtract = Console.ReadLine();
 
-    int yourFirstNumberSubtract = int.Parse(stringFirstNumberSubtract);
-    int yourSecondNumberSubtract = int.Parse(stringSecondNumberSubtract);
-    int yourDifferenceNumber = yourFirstNumberSubtract - yourSecondNumberSubtract;
+    int intFirstNumberSubtract = int.Parse(stringFirstNumberSubtract);
+    int intSecondNumberSubtract = int.Parse(stringSecondNumberSubtract);
+    int intDifferenceNumber = intFirstNumberSubtract - intSecondNumberSubtract;
 
-    string stringDifferenceNumber = yourDifferenceNumber.ToString();
+    string stringDifferenceNumber = intDifferenceNumber.ToString();
 
     Console.WriteLine("When you subtract " + stringFirstNumberSubtract + " to " + stringSecondNumberSubtract + ".........");
     Console.WriteLine("You get: " + stringDifferenceNumber + "\n");

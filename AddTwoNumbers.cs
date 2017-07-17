@@ -11,11 +11,11 @@ class AddTwoNumbers
     Console.WriteLine("Second number is: ");
     string stringSecondNumberAdd = Console.ReadLine();
 
-    int yourFirstNumberAdd = int.Parse(stringFirstNumberAdd);
-    int yourSecondNumberAdd = int.Parse(stringSecondNumberAdd);
-    int yourSumNumber = yourFirstNumberAdd + yourSecondNumberAdd;
+    int intFirstNumberAdd = int.Parse(stringFirstNumberAdd);
+    int intSecondNumberAdd = int.Parse(stringSecondNumberAdd);
+    int intSumNumber = intFirstNumberAdd + intSecondNumberAdd;
 
-    string stringSumNumber = yourSumNumber.ToString();
+    string stringSumNumber = intSumNumber.ToString();
 
     Console.WriteLine("When you add " + stringFirstNumberAdd + " to " + stringSecondNumberAdd + ".........");
     Console.WriteLine("You get: " + stringSumNumber + "\n");
